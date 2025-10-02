@@ -20,7 +20,7 @@
 
 #### 1. 一時ファイルの配置先
 ```bash
-/Users/tohga/Myapp/AI-orchestration/tmp/
+/Users/tohga/Myapp/ReaderMaster/tmp/
 ```
 
 **用途**:
@@ -50,7 +50,7 @@ temp_file.txt
 
 #### 2. レポートの配置先
 ```bash
-/Users/tohga/Myapp/AI-orchestration/report/
+/Users/tohga/Myapp/ReaderMaster/report/
 ```
 
 **用途**:
@@ -84,7 +84,7 @@ phase1_report.md（ルート直下）
 ## 📁 プロジェクト構造
 
 ```
-AI-orchestration/
+ReaderMaster/
 ├── CLAUDE.md                   # このファイル - プロジェクト開発ガイド
 ├── README.md                   # プロジェクト概要
 ├── .gitignore                  # Git除外設定
