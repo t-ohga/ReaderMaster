@@ -110,8 +110,11 @@ datasets/
 # Uploaded files / temp storage
 uploads/
 temp/
-tmp/
 cache/
+
+# Temporary files directory (keep .gitkeep for directory tracking)
+tmp/*
+!tmp/.gitkeep
 
 # PDF/Image processing temporary files
 *.pdf.tmp
