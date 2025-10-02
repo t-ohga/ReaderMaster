@@ -57,15 +57,15 @@
 ## 🔗 このカテゴリが影響する他のカテゴリ
 
 ### 直接影響
-- **06_security**: 技術選定がセキュリティ要件に与える影響
+- **06_non_functional/security**: 技術選定がセキュリティ要件に与える影響
 - **07_data**: データモデルとストレージ設計の整合性
 - **09_development/phases**: 技術スタックに基づく開発フェーズ計画
 - **10_risks/technical**: 技術的リスクの特定と対策
 
 ### 間接影響
 - **08_integration**: 外部システムとの統合方式
-- **11_quality/performance**: パフォーマンス要件の実現可能性
-- **11_quality/testing**: テスト戦略と技術スタックの整合性
+- **06_non_functional/performance**: パフォーマンス要件の実現可能性
+- **09_development/testing**: テスト戦略と技術スタックの整合性
 
 ## 📂 サブカテゴリの説明
 

@@ -34,22 +34,12 @@
 ├── README.md                    # このファイル - 機能要件の全体像
 ├── TEMPLATE.md                  # 機能定義テンプレート
 ├── STATUS.md                    # 進捗状況
-└── docs/
-    ├── core_functions/          # コア機能詳細
-    │   ├── file_upload.md      # ファイルアップロード仕様
-    │   ├── ai_extraction.md    # AI/OCR抽出仕様
-    │   └── object_mgmt.md      # オブジェクト管理仕様
-    ├── editing/                 # 編集機能詳細
-    │   ├── text_edit.md        # テキスト編集仕様
-    │   ├── table_edit.md       # 表編集仕様
-    │   ├── shape_edit.md       # 図形編集仕様
-    │   └── operations.md       # 操作体系（選択、移動、削除等）
-    ├── export/                  # エクスポート機能詳細
-    │   ├── formats.md          # 出力フォーマット仕様
-    │   └── quality.md          # 品質管理仕様
-    └── collaboration/           # 協働機能（Nice-to-have）
-        ├── sharing.md          # 共有機能
-        └── versioning.md       # バージョン管理
+├── core_functions/              # コア機能詳細
+│   └── README.md               # コア機能仕様（ファイルアップロード、AI/OCR抽出、オブジェクト管理）
+├── editing/                     # 編集機能詳細
+│   └── README.md               # 編集機能仕様（テキスト、表、図形編集、共通操作）
+├── export/                      # エクスポート機能詳細（将来追加予定）
+└── collaboration/               # 協働機能（Nice-to-have、将来追加予定）
 ```
 
 ### サブカテゴリの説明
