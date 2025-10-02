@@ -1,0 +1,151 @@
+# ReaderMaster - Git Ignore File
+
+# ===================================
+# OS Files
+# ===================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# ===================================
+# IDE & Editors
+# ===================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ===================================
+# Node.js / JavaScript / TypeScript
+# ===================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# ===================================
+# Python / AI-OCR
+# ===================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# PyInstaller
+*.manifest
+*.spec
+
+# ML Models & Data (large files)
+*.pkl
+*.h5
+*.model
+*.weights
+data/raw/
+data/processed/
+models/trained/
+datasets/
+
+# ===================================
+# Application Specific
+# ===================================
+# Uploaded files / temp storage
+uploads/
+temp/
+tmp/
+cache/
+
+# PDF/Image processing temporary files
+*.pdf.tmp
+*.img.tmp
+ocr_temp/
+extracted_objects/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Config overrides (keep templates)
+config.local.json
+config.override.json
+
+# ===================================
+# Build & Package Management
+# ===================================
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# ===================================
+# Documentation (Generated)
+# ===================================
+# Keep requirements/ documentation but ignore generated docs
+docs/_build/
+site/
+
+# ===================================
+# Misc
+# ===================================
+.sass-cache/
+*.css.map
+*.js.map
